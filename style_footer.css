@@ -1,0 +1,47 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.social-media {
+    margin-top: 1rem;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #777;
+}
+
+/* Responsive Design for Footer */
+@media (max-width: 600px) {
+    .social-icon {
+        margin: 0 5px;
+        font-size: 1rem;
+    }
+}
